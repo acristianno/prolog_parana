@@ -1,6 +1,6 @@
 :- encoding(utf8).
 /*  Testes unitários (plunit) das regras.   Rode:   swipl -q -g run_tests -t halt testes/testes.pl
-    Os valores esperados foram conferidos contra os dados oficiais (Parquet do projeto principal).
+    Os valores esperados foram conferidos contra os dados oficiais (resultados oficiais do TSE).
 */
 :- use_module(library(plunit)).
 :- ['../prolog/base.pl'].

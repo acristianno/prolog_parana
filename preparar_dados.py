@@ -6,7 +6,7 @@ Python faz o trabalho "braçal" (ler Parquet, limpar texto, agregar) e o Prolog 
 Os arquivos gerados já acompanham o projeto: só é preciso rodar este script se quiser regenerar a base.
 
     pip install duckdb
-    python preparar_dados.py --marts ../data/marts
+    python preparar_dados.py --marts caminho/para/os/parquet
 
 Fatos gerados (todos em UTF-8):
     candidato(Sq, Nome, NomeUrna, Numero, Partido, Cargo, Situacao).
@@ -55,7 +55,7 @@ def escrever(caminho: Path, cabecalho: str, linhas: list[str]) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--marts", default="../data/marts", help="pasta com os arquivos .parquet do projeto principal")
+    ap.add_argument("--marts", required=True, help="pasta com os arquivos .parquet dos resultados do TSE")
     ap.add_argument("--saida", default="dados")
     a = ap.parse_args()
     marts, out = Path(a.marts), Path(a.saida)
