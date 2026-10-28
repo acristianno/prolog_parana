@@ -1,0 +1,5 @@
+*.qlf
+__pycache__/
+node_modules/
+tela.png
+*.log

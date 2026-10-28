@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eleições PR 2026 · Consultas em Prolog</title>
+<link rel="stylesheet" href="/static/estilo.css">
+</head>
+<body>
+<header>
+  <h1>Eleições 2026 · Paraná <small>1º turno · consultas em Prolog</small></h1>
+  <p class="sub">Cada resposta abaixo vem de uma <b>regra Prolog</b> executada no servidor. O quadro “Consulta Prolog” mostra o objetivo que foi consultado.</p>
+</header>
+
+<nav id="abas" role="tablist">
+  <button data-aba="ranking" class="on">Ranking</button>
+  <button data-aba="buscar">Buscar candidato</button>
+  <button data-aba="partidos">Partidos</button>
+  <button data-aba="municipio">Município</button>
+  <button data-aba="console">Console Prolog</button>
+</nav>
+
+<main>
+  <section id="aba-ranking" class="aba">
+    <div class="filtros">
+      <label>Cargo <select id="rk-cargo"></select></label>
+      <label>Quantos <input id="rk-n" type="number" min="1" max="200" value="10"></label>
+    </div>
+    <div id="resumo" class="cartoes"></div>
+    <div id="rk-saida"></div>
+  </section>
+
+  <section id="aba-buscar" class="aba" hidden>
+    <div class="filtros">
+      <label>Nome <input id="bu-q" type="search" placeholder="ex.: chiquini, moro, lula" autocomplete="off"></label>
+      <label>Cargo <select id="bu-cargo"><option value="todos">Todos</option></select></label>
+    </div>
+    <div id="bu-saida"></div>
+    <div id="bu-detalhe"></div>
+  </section>
+
+  <section id="aba-partidos" class="aba" hidden>
+    <div class="filtros"><label>Cargo <select id="pa-cargo"></select></label></div>
+    <div id="pa-saida"></div>
+  </section>
+
+  <section id="aba-municipio" class="aba" hidden>
+    <div class="filtros">
+      <label>Cargo <select id="mu-cargo"></select></label>
+      <label>Município <select id="mu-mun"></select></label>
+    </div>
+    <div id="mu-saida"></div>
+  </section>
+
+  <section id="aba-console" class="aba" hidden>
+    <div class="painel">
+      <h3>Como funciona uma consulta em Prolog</h3>
+      <ul class="guia">
+        <li><b>Fatos</b> são os dados, como <code>candidato(Sq, Nome, Urna, Numero, Partido, Cargo, _)</code>. Uma consulta pergunta quais valores tornam algo verdadeiro.</li>
+        <li><b>Variáveis</b> começam com <b>letra maiúscula</b> (<code>Nome</code>, <code>V</code>) e são as respostas que você quer descobrir. <code>_</code> significa "tanto faz, não me interessa".</li>
+        <li><b>Textos e nomes</b> com espaço ou maiúsculas ficam entre aspas simples: <code>'JEFFREY CHIQUINI'</code>. Cargos são palavras minúsculas: <code>presidente</code>, <code>governador</code>, <code>senador</code>, <code>deputado_federal</code>, <code>deputado_estadual</code>.</li>
+        <li>A vírgula <code>,</code> significa <b>E</b>: todas as condições valem ao mesmo tempo. Comparações: <code>V &gt; 1000000</code>, <code>V =&lt; 500</code>.</li>
+        <li>Termine com <b>ponto final</b>. Cada linha da tabela de resultado é uma resposta; se aparecer <b>false.</b>, nenhuma combinação satisfaz a consulta.</li>
+      </ul>
+    </div>
+
+    <h3 class="titulo-sec">Exemplos para clicar</h3>
+    <div id="cn-exemplos"></div>
+
+    <h3 class="titulo-sec">Sua consulta</h3>
+    <textarea id="cn-goal" rows="3" spellcheck="false">votos_candidato(Nome, senador, V), V &gt; 1000000.</textarea>
+    <div class="filtros"><button id="cn-rodar" class="primario">Consultar</button><span class="dica">Enter consulta · Shift+Enter quebra linha · somente leitura, máx. 200 respostas e 5 s</span></div>
+    <div id="cn-saida"></div>
+
+    <h3 class="titulo-sec">Predicados disponíveis</h3>
+    <div class="painel"><table id="cn-ref"></table></div>
+  </section>
+</main>
+
+<footer>Dados: TSE, 1º turno de 2026, Paraná. Base de conhecimento: fatos <code>.pl</code> gerados por Python · raciocínio: regras Prolog · interface: HTML/JS.</footer>
+<script src="/static/app.js"></script>
+</body>
+</html>

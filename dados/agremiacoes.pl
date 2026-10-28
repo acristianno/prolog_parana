@@ -1,0 +1,685 @@
+:- encoding(utf8).
+% federacao(Sq, Sigla) e coligacao(Sq, Nome): como o candidato concorreu.
+
+federacao(280002542548, 'PT/PC do B/PV').
+federacao(160002547656, 'PT/PC do B/PV').
+federacao(160002547658, 'PT/PC do B/PV').
+federacao(160002536516, 'PT/PC do B/PV').
+federacao(160002536519, 'PT/PC do B/PV').
+federacao(160002536505, 'PT/PC do B/PV').
+federacao(160002536522, 'PT/PC do B/PV').
+federacao(160002532878, 'UNIÃO/PP').
+federacao(160002536512, 'PT/PC do B/PV').
+federacao(160002532857, 'UNIÃO/PP').
+federacao(160002532859, 'UNIÃO/PP').
+federacao(160002532851, 'UNIÃO/PP').
+federacao(160002532858, 'UNIÃO/PP').
+federacao(160002532856, 'UNIÃO/PP').
+federacao(160002532855, 'UNIÃO/PP').
+federacao(160002536499, 'PT/PC do B/PV').
+federacao(160002532875, 'UNIÃO/PP').
+federacao(160002532874, 'UNIÃO/PP').
+federacao(160002549533, 'PSDB/CIDADANIA').
+federacao(160002536520, 'PT/PC do B/PV').
+federacao(160002532872, 'UNIÃO/PP').
+federacao(160002532863, 'UNIÃO/PP').
+federacao(160002536517, 'PT/PC do B/PV').
+federacao(160002532852, 'UNIÃO/PP').
+federacao(160002536521, 'PT/PC do B/PV').
+federacao(160002532853, 'UNIÃO/PP').
+federacao(160002532870, 'UNIÃO/PP').
+federacao(160002536506, 'PT/PC do B/PV').
+federacao(160002532862, 'UNIÃO/PP').
+federacao(160002536502, 'PT/PC do B/PV').
+federacao(160002554323, 'PSDB/CIDADANIA').
+federacao(160002532866, 'UNIÃO/PP').
+federacao(160002549549, 'PSDB/CIDADANIA').
+federacao(160002536510, 'PT/PC do B/PV').
+federacao(160002536518, 'PT/PC do B/PV').
+federacao(160002536500, 'PT/PC do B/PV').
+federacao(160002549542, 'PSDB/CIDADANIA').
+federacao(160002532868, 'UNIÃO/PP').
+federacao(160002553367, 'PRD/SOLIDARIEDADE').
+federacao(160002536509, 'PT/PC do B/PV').
+federacao(160002532850, 'UNIÃO/PP').
+federacao(160002549525, 'PSDB/CIDADANIA').
+federacao(160002532871, 'UNIÃO/PP').
+federacao(160002549541, 'PSDB/CIDADANIA').
+federacao(160002549551, 'PSDB/CIDADANIA').
+federacao(160002536511, 'PT/PC do B/PV').
+federacao(160002536508, 'PT/PC do B/PV').
+federacao(160002547717, 'PSOL/REDE').
+federacao(160002536498, 'PT/PC do B/PV').
+federacao(160002532867, 'UNIÃO/PP').
+federacao(160002554488, 'UNIÃO/PP').
+federacao(160002532854, 'UNIÃO/PP').
+federacao(160002536497, 'PT/PC do B/PV').
+federacao(160002536507, 'PT/PC do B/PV').
+federacao(160002532877, 'UNIÃO/PP').
+federacao(160002532873, 'UNIÃO/PP').
+federacao(160002552581, 'UNIÃO/PP').
+federacao(160002549521, 'PSDB/CIDADANIA').
+federacao(160002549522, 'PSDB/CIDADANIA').
+federacao(160002553357, 'PRD/SOLIDARIEDADE').
+federacao(160002547721, 'PSOL/REDE').
+federacao(160002549547, 'PSDB/CIDADANIA').
+federacao(160002532861, 'UNIÃO/PP').
+federacao(160002549527, 'PSDB/CIDADANIA').
+federacao(160002553366, 'PRD/SOLIDARIEDADE').
+federacao(160002549526, 'PSDB/CIDADANIA').
+federacao(160002536514, 'PT/PC do B/PV').
+federacao(160002553369, 'PRD/SOLIDARIEDADE').
+federacao(160002547710, 'PSOL/REDE').
+federacao(160002549546, 'PSDB/CIDADANIA').
+federacao(160002553356, 'PRD/SOLIDARIEDADE').
+federacao(160002547720, 'PSOL/REDE').
+federacao(160002536504, 'PT/PC do B/PV').
+federacao(160002549528, 'PSDB/CIDADANIA').
+federacao(160002553358, 'PRD/SOLIDARIEDADE').
+federacao(160002536501, 'PT/PC do B/PV').
+federacao(160002549529, 'PSDB/CIDADANIA').
+federacao(160002536513, 'PT/PC do B/PV').
+federacao(160002549532, 'PSDB/CIDADANIA').
+federacao(160002549540, 'PSDB/CIDADANIA').
+federacao(160002553374, 'PRD/SOLIDARIEDADE').
+federacao(160002549538, 'PSDB/CIDADANIA').
+federacao(160002547724, 'PSOL/REDE').
+federacao(160002536503, 'PT/PC do B/PV').
+federacao(160002536515, 'PT/PC do B/PV').
+federacao(160002549543, 'PSDB/CIDADANIA').
+federacao(160002553365, 'PRD/SOLIDARIEDADE').
+federacao(160002549539, 'PSDB/CIDADANIA').
+federacao(160002553359, 'PRD/SOLIDARIEDADE').
+federacao(160002549545, 'PSDB/CIDADANIA').
+federacao(160002549536, 'PSDB/CIDADANIA').
+federacao(160002549544, 'PSDB/CIDADANIA').
+federacao(160002553363, 'PRD/SOLIDARIEDADE').
+federacao(160002549550, 'PSDB/CIDADANIA').
+federacao(160002547722, 'PSOL/REDE').
+federacao(160002553361, 'PRD/SOLIDARIEDADE').
+federacao(160002532865, 'UNIÃO/PP').
+federacao(160002547718, 'PSOL/REDE').
+federacao(160002547713, 'PSOL/REDE').
+federacao(160002554273, 'PSOL/REDE').
+federacao(160002549535, 'PSDB/CIDADANIA').
+federacao(160002549537, 'PSDB/CIDADANIA').
+federacao(160002549524, 'PSDB/CIDADANIA').
+federacao(160002532860, 'UNIÃO/PP').
+federacao(160002549548, 'PSDB/CIDADANIA').
+federacao(160002547714, 'PSOL/REDE').
+federacao(160002547716, 'PSOL/REDE').
+federacao(160002547715, 'PSOL/REDE').
+federacao(160002532849, 'UNIÃO/PP').
+federacao(160002547706, 'PSOL/REDE').
+federacao(160002553371, 'PRD/SOLIDARIEDADE').
+federacao(160002547707, 'PSOL/REDE').
+federacao(160002547708, 'PSOL/REDE').
+federacao(160002553377, 'PRD/SOLIDARIEDADE').
+federacao(160002553373, 'PRD/SOLIDARIEDADE').
+federacao(160002547725, 'PSOL/REDE').
+federacao(160002553355, 'PRD/SOLIDARIEDADE').
+federacao(160002547712, 'PSOL/REDE').
+federacao(160002553376, 'PRD/SOLIDARIEDADE').
+federacao(160002549523, 'PSDB/CIDADANIA').
+federacao(160002553372, 'PRD/SOLIDARIEDADE').
+federacao(160002547711, 'PSOL/REDE').
+federacao(160002553360, 'PRD/SOLIDARIEDADE').
+federacao(160002554274, 'PSOL/REDE').
+federacao(160002549530, 'PSDB/CIDADANIA').
+federacao(160002549531, 'PSDB/CIDADANIA').
+federacao(160002553368, 'PRD/SOLIDARIEDADE').
+federacao(160002553375, 'PRD/SOLIDARIEDADE').
+federacao(160002542281, 'PT/PC do B/PV').
+federacao(160002533451, 'UNIÃO/PP').
+federacao(160002533460, 'UNIÃO/PP').
+federacao(160002547760, 'PSOL/REDE').
+federacao(160002533479, 'UNIÃO/PP').
+federacao(160002533442, 'UNIÃO/PP').
+federacao(160002542233, 'PT/PC do B/PV').
+federacao(160002533488, 'UNIÃO/PP').
+federacao(160002542248, 'PT/PC do B/PV').
+federacao(160002542263, 'PT/PC do B/PV').
+federacao(160002533447, 'UNIÃO/PP').
+federacao(160002533454, 'UNIÃO/PP').
+federacao(160002533485, 'UNIÃO/PP').
+federacao(160002542235, 'PT/PC do B/PV').
+federacao(160002542231, 'PT/PC do B/PV').
+federacao(160002542277, 'PT/PC do B/PV').
+federacao(160002542256, 'PT/PC do B/PV').
+federacao(160002542269, 'PT/PC do B/PV').
+federacao(160002533475, 'UNIÃO/PP').
+federacao(160002542259, 'PT/PC do B/PV').
+federacao(160002533446, 'UNIÃO/PP').
+federacao(160002542234, 'PT/PC do B/PV').
+federacao(160002542236, 'PT/PC do B/PV').
+federacao(160002542279, 'PT/PC do B/PV').
+federacao(160002533476, 'UNIÃO/PP').
+federacao(160002542260, 'PT/PC do B/PV').
+federacao(160002542244, 'PT/PC do B/PV').
+federacao(160002542242, 'PT/PC do B/PV').
+federacao(160002542245, 'PT/PC do B/PV').
+federacao(160002542251, 'PT/PC do B/PV').
+federacao(160002552795, 'PSDB/CIDADANIA').
+federacao(160002542272, 'PT/PC do B/PV').
+federacao(160002533468, 'UNIÃO/PP').
+federacao(160002533492, 'UNIÃO/PP').
+federacao(160002542262, 'PT/PC do B/PV').
+federacao(160002542247, 'PT/PC do B/PV').
+federacao(160002533478, 'UNIÃO/PP').
+federacao(160002533480, 'UNIÃO/PP').
+federacao(160002542241, 'PT/PC do B/PV').
+federacao(160002542255, 'PT/PC do B/PV').
+federacao(160002533444, 'UNIÃO/PP').
+federacao(160002542232, 'PT/PC do B/PV').
+federacao(160002542266, 'PT/PC do B/PV').
+federacao(160002542280, 'PT/PC do B/PV').
+federacao(160002542254, 'PT/PC do B/PV').
+federacao(160002533482, 'UNIÃO/PP').
+federacao(160002553382, 'PRD/SOLIDARIEDADE').
+federacao(160002533484, 'UNIÃO/PP').
+federacao(160002533486, 'UNIÃO/PP').
+federacao(160002533471, 'UNIÃO/PP').
+federacao(160002542276, 'PT/PC do B/PV').
+federacao(160002542264, 'PT/PC do B/PV').
+federacao(160002547753, 'PSOL/REDE').
+federacao(160002533462, 'UNIÃO/PP').
+federacao(160002542253, 'PT/PC do B/PV').
+federacao(160002553385, 'PRD/SOLIDARIEDADE').
+federacao(160002542239, 'PT/PC do B/PV').
+federacao(160002533477, 'UNIÃO/PP').
+federacao(160002533470, 'UNIÃO/PP').
+federacao(160002552800, 'PSDB/CIDADANIA').
+federacao(160002542261, 'PT/PC do B/PV').
+federacao(160002533439, 'UNIÃO/PP').
+federacao(160002542246, 'PT/PC do B/PV').
+federacao(160002542278, 'PT/PC do B/PV').
+federacao(160002533473, 'UNIÃO/PP').
+federacao(160002542265, 'PT/PC do B/PV').
+federacao(160002533445, 'UNIÃO/PP').
+federacao(160002552815, 'PSDB/CIDADANIA').
+federacao(160002552811, 'PSDB/CIDADANIA').
+federacao(160002533450, 'UNIÃO/PP').
+federacao(160002542258, 'PT/PC do B/PV').
+federacao(160002542274, 'PT/PC do B/PV').
+federacao(160002542268, 'PT/PC do B/PV').
+federacao(160002542257, 'PT/PC do B/PV').
+federacao(160002542271, 'PT/PC do B/PV').
+federacao(160002547738, 'PSOL/REDE').
+federacao(160002553389, 'PRD/SOLIDARIEDADE').
+federacao(160002533466, 'UNIÃO/PP').
+federacao(160002547751, 'PSOL/REDE').
+federacao(160002552825, 'PSDB/CIDADANIA').
+federacao(160002533455, 'UNIÃO/PP').
+federacao(160002533472, 'UNIÃO/PP').
+federacao(160002533491, 'UNIÃO/PP').
+federacao(160002533463, 'UNIÃO/PP').
+federacao(160002542237, 'PT/PC do B/PV').
+federacao(160002533449, 'UNIÃO/PP').
+federacao(160002552821, 'PSDB/CIDADANIA').
+federacao(160002552799, 'PSDB/CIDADANIA').
+federacao(160002542243, 'PT/PC do B/PV').
+federacao(160002533487, 'UNIÃO/PP').
+federacao(160002542240, 'PT/PC do B/PV').
+federacao(160002533458, 'UNIÃO/PP').
+federacao(160002533469, 'UNIÃO/PP').
+federacao(160002542270, 'PT/PC do B/PV').
+federacao(160002533457, 'UNIÃO/PP').
+federacao(160002552829, 'PSDB/CIDADANIA').
+federacao(160002533465, 'UNIÃO/PP').
+federacao(160002542249, 'PT/PC do B/PV').
+federacao(160002552823, 'PSDB/CIDADANIA').
+federacao(160002547728, 'PSOL/REDE').
+federacao(160002533456, 'UNIÃO/PP').
+federacao(160002552789, 'PSDB/CIDADANIA').
+federacao(160002553387, 'PRD/SOLIDARIEDADE').
+federacao(160002533481, 'UNIÃO/PP').
+federacao(160002552809, 'PSDB/CIDADANIA').
+federacao(160002533452, 'UNIÃO/PP').
+federacao(160002542252, 'PT/PC do B/PV').
+federacao(160002547742, 'PSOL/REDE').
+federacao(160002533489, 'UNIÃO/PP').
+federacao(160002552791, 'PSDB/CIDADANIA').
+federacao(160002533467, 'UNIÃO/PP').
+federacao(160002554283, 'PSDB/CIDADANIA').
+federacao(160002542273, 'PT/PC do B/PV').
+federacao(160002547755, 'PSOL/REDE').
+federacao(160002552813, 'PSDB/CIDADANIA').
+federacao(160002533461, 'UNIÃO/PP').
+federacao(160002552786, 'PSDB/CIDADANIA').
+federacao(160002533441, 'UNIÃO/PP').
+federacao(160002552793, 'PSDB/CIDADANIA').
+federacao(160002553386, 'PRD/SOLIDARIEDADE').
+federacao(160002542267, 'PT/PC do B/PV').
+federacao(160002547759, 'PSOL/REDE').
+federacao(160002547737, 'PSOL/REDE').
+federacao(160002552784, 'PSDB/CIDADANIA').
+federacao(160002552820, 'PSDB/CIDADANIA').
+federacao(160002552797, 'PSDB/CIDADANIA').
+federacao(160002552761, 'PSDB/CIDADANIA').
+federacao(160002553383, 'PRD/SOLIDARIEDADE').
+federacao(160002547750, 'PSOL/REDE').
+federacao(160002553381, 'PRD/SOLIDARIEDADE').
+federacao(160002547764, 'PSOL/REDE').
+federacao(160002547761, 'PSOL/REDE').
+federacao(160002542250, 'PT/PC do B/PV').
+federacao(160002552830, 'PSDB/CIDADANIA').
+federacao(160002554377, 'PSDB/CIDADANIA').
+federacao(160002552831, 'PSDB/CIDADANIA').
+federacao(160002552828, 'PSDB/CIDADANIA').
+federacao(160002547739, 'PSOL/REDE').
+federacao(160002533464, 'UNIÃO/PP').
+federacao(160002552783, 'PSDB/CIDADANIA').
+federacao(160002554363, 'PRD/SOLIDARIEDADE').
+federacao(160002533459, 'UNIÃO/PP').
+federacao(160002553378, 'PRD/SOLIDARIEDADE').
+federacao(160002552762, 'PSDB/CIDADANIA').
+federacao(160002552576, 'UNIÃO/PP').
+federacao(160002552801, 'PSDB/CIDADANIA').
+federacao(160002552785, 'PSDB/CIDADANIA').
+federacao(160002547729, 'PSOL/REDE').
+federacao(160002547767, 'PSOL/REDE').
+federacao(160002552810, 'PSDB/CIDADANIA').
+federacao(160002547743, 'PSOL/REDE').
+federacao(160002552818, 'PSDB/CIDADANIA').
+federacao(160002552802, 'PSDB/CIDADANIA').
+federacao(160002552816, 'PSDB/CIDADANIA').
+federacao(160002533490, 'UNIÃO/PP').
+federacao(160002547741, 'PSOL/REDE').
+federacao(160002547745, 'PSOL/REDE').
+federacao(160002533443, 'UNIÃO/PP').
+federacao(160002553380, 'PRD/SOLIDARIEDADE').
+federacao(160002552805, 'PSDB/CIDADANIA').
+federacao(160002552817, 'PSDB/CIDADANIA').
+federacao(160002553384, 'PRD/SOLIDARIEDADE').
+federacao(160002552819, 'PSDB/CIDADANIA').
+federacao(160002547727, 'PSOL/REDE').
+federacao(160002552798, 'PSDB/CIDADANIA').
+federacao(160002552807, 'PSDB/CIDADANIA').
+federacao(160002547762, 'PSOL/REDE').
+federacao(160002554300, 'PSOL/REDE').
+federacao(160002552808, 'PSDB/CIDADANIA').
+federacao(160002552826, 'PSDB/CIDADANIA').
+federacao(160002552827, 'PSDB/CIDADANIA').
+federacao(160002533440, 'UNIÃO/PP').
+federacao(160002552803, 'PSDB/CIDADANIA').
+federacao(160002547754, 'PSOL/REDE').
+federacao(160002547758, 'PSOL/REDE').
+federacao(160002552806, 'PSDB/CIDADANIA').
+federacao(160002547748, 'PSOL/REDE').
+federacao(160002533453, 'UNIÃO/PP').
+federacao(160002547744, 'PSOL/REDE').
+federacao(160002552794, 'PSDB/CIDADANIA').
+federacao(160002547734, 'PSOL/REDE').
+federacao(160002547726, 'PSOL/REDE').
+federacao(160002547730, 'PSOL/REDE').
+federacao(160002552788, 'PSDB/CIDADANIA').
+federacao(160002552822, 'PSDB/CIDADANIA').
+federacao(160002554284, 'PSDB/CIDADANIA').
+federacao(160002554272, 'PSOL/REDE').
+federacao(160002547766, 'PSOL/REDE').
+federacao(160002547733, 'PSOL/REDE').
+federacao(160002533474, 'UNIÃO/PP').
+federacao(160002552804, 'PSDB/CIDADANIA').
+federacao(160002552796, 'PSDB/CIDADANIA').
+federacao(160002547746, 'PSOL/REDE').
+federacao(160002547731, 'PSOL/REDE').
+federacao(160002552824, 'PSDB/CIDADANIA').
+federacao(160002542275, 'PT/PC do B/PV').
+federacao(160002552787, 'PSDB/CIDADANIA').
+federacao(160002547732, 'PSOL/REDE').
+federacao(160002547763, 'PSOL/REDE').
+federacao(160002547757, 'PSOL/REDE').
+federacao(160002552569, 'UNIÃO/PP').
+federacao(160002547736, 'PSOL/REDE').
+federacao(160002547749, 'PSOL/REDE').
+federacao(160002547740, 'PSOL/REDE').
+federacao(160002547752, 'PSOL/REDE').
+federacao(160002533448, 'UNIÃO/PP').
+federacao(160002547735, 'PSOL/REDE').
+federacao(160002552792, 'PSDB/CIDADANIA').
+federacao(160002552812, 'PSDB/CIDADANIA').
+coligacao(280002542548, 'BRASIL PRONTO PRA MAIS').
+coligacao(280002551547, 'BRASIL DOS NOSSOS SONHOS').
+coligacao(160002540833, 'FORTALEZA PARANÁ').
+coligacao(160002549553, 'COLIGAÇÃO A MUDANÇA CONTINUA').
+coligacao(160002547666, 'PARANÁ PARA TODOS').
+coligacao(160002547660, 'FORTALEZA DO PARANÁ').
+coligacao(160002547661, 'FORTALEZA DO PARANÁ').
+coligacao(160002547963, 'COLIGAÇÃO A MUDANÇA CONTINUA').
+coligacao(160002547656, 'PARANÁ PARA TODOS').
+coligacao(160002547658, 'PARANÁ PARA TODOS').
+coligacao(160002549555, 'COLIGAÇÃO A MUDANÇA CONTINUA').
+coligacao(160002536516, 'FEDERAÇÃO').
+coligacao(160002536519, 'FEDERAÇÃO').
+coligacao(160002536505, 'FEDERAÇÃO').
+coligacao(160002536522, 'FEDERAÇÃO').
+coligacao(160002532878, 'FEDERAÇÃO').
+coligacao(160002536512, 'FEDERAÇÃO').
+coligacao(160002532857, 'FEDERAÇÃO').
+coligacao(160002532859, 'FEDERAÇÃO').
+coligacao(160002532851, 'FEDERAÇÃO').
+coligacao(160002532858, 'FEDERAÇÃO').
+coligacao(160002532856, 'FEDERAÇÃO').
+coligacao(160002532855, 'FEDERAÇÃO').
+coligacao(160002536499, 'FEDERAÇÃO').
+coligacao(160002532875, 'FEDERAÇÃO').
+coligacao(160002532874, 'FEDERAÇÃO').
+coligacao(160002549533, 'FEDERAÇÃO').
+coligacao(160002536520, 'FEDERAÇÃO').
+coligacao(160002532872, 'FEDERAÇÃO').
+coligacao(160002532863, 'FEDERAÇÃO').
+coligacao(160002536517, 'FEDERAÇÃO').
+coligacao(160002532852, 'FEDERAÇÃO').
+coligacao(160002536521, 'FEDERAÇÃO').
+coligacao(160002532853, 'FEDERAÇÃO').
+coligacao(160002532870, 'FEDERAÇÃO').
+coligacao(160002536506, 'FEDERAÇÃO').
+coligacao(160002532862, 'FEDERAÇÃO').
+coligacao(160002536502, 'FEDERAÇÃO').
+coligacao(160002554323, 'FEDERAÇÃO').
+coligacao(160002532866, 'FEDERAÇÃO').
+coligacao(160002549549, 'FEDERAÇÃO').
+coligacao(160002536510, 'FEDERAÇÃO').
+coligacao(160002536518, 'FEDERAÇÃO').
+coligacao(160002536500, 'FEDERAÇÃO').
+coligacao(160002549542, 'FEDERAÇÃO').
+coligacao(160002532868, 'FEDERAÇÃO').
+coligacao(160002553367, 'FEDERAÇÃO').
+coligacao(160002536509, 'FEDERAÇÃO').
+coligacao(160002532850, 'FEDERAÇÃO').
+coligacao(160002549525, 'FEDERAÇÃO').
+coligacao(160002532871, 'FEDERAÇÃO').
+coligacao(160002549541, 'FEDERAÇÃO').
+coligacao(160002549551, 'FEDERAÇÃO').
+coligacao(160002536511, 'FEDERAÇÃO').
+coligacao(160002536508, 'FEDERAÇÃO').
+coligacao(160002547717, 'FEDERAÇÃO').
+coligacao(160002536498, 'FEDERAÇÃO').
+coligacao(160002532867, 'FEDERAÇÃO').
+coligacao(160002554488, 'FEDERAÇÃO').
+coligacao(160002532854, 'FEDERAÇÃO').
+coligacao(160002536497, 'FEDERAÇÃO').
+coligacao(160002536507, 'FEDERAÇÃO').
+coligacao(160002532877, 'FEDERAÇÃO').
+coligacao(160002532873, 'FEDERAÇÃO').
+coligacao(160002552581, 'FEDERAÇÃO').
+coligacao(160002549521, 'FEDERAÇÃO').
+coligacao(160002549522, 'FEDERAÇÃO').
+coligacao(160002553357, 'FEDERAÇÃO').
+coligacao(160002547721, 'FEDERAÇÃO').
+coligacao(160002549547, 'FEDERAÇÃO').
+coligacao(160002532861, 'FEDERAÇÃO').
+coligacao(160002549527, 'FEDERAÇÃO').
+coligacao(160002553366, 'FEDERAÇÃO').
+coligacao(160002549526, 'FEDERAÇÃO').
+coligacao(160002536514, 'FEDERAÇÃO').
+coligacao(160002553369, 'FEDERAÇÃO').
+coligacao(160002547710, 'FEDERAÇÃO').
+coligacao(160002549546, 'FEDERAÇÃO').
+coligacao(160002553356, 'FEDERAÇÃO').
+coligacao(160002547720, 'FEDERAÇÃO').
+coligacao(160002536504, 'FEDERAÇÃO').
+coligacao(160002549528, 'FEDERAÇÃO').
+coligacao(160002553358, 'FEDERAÇÃO').
+coligacao(160002536501, 'FEDERAÇÃO').
+coligacao(160002549529, 'FEDERAÇÃO').
+coligacao(160002536513, 'FEDERAÇÃO').
+coligacao(160002549532, 'FEDERAÇÃO').
+coligacao(160002549540, 'FEDERAÇÃO').
+coligacao(160002553374, 'FEDERAÇÃO').
+coligacao(160002549538, 'FEDERAÇÃO').
+coligacao(160002547724, 'FEDERAÇÃO').
+coligacao(160002536503, 'FEDERAÇÃO').
+coligacao(160002536515, 'FEDERAÇÃO').
+coligacao(160002549543, 'FEDERAÇÃO').
+coligacao(160002553365, 'FEDERAÇÃO').
+coligacao(160002549539, 'FEDERAÇÃO').
+coligacao(160002553359, 'FEDERAÇÃO').
+coligacao(160002549545, 'FEDERAÇÃO').
+coligacao(160002549536, 'FEDERAÇÃO').
+coligacao(160002549544, 'FEDERAÇÃO').
+coligacao(160002553363, 'FEDERAÇÃO').
+coligacao(160002549550, 'FEDERAÇÃO').
+coligacao(160002547722, 'FEDERAÇÃO').
+coligacao(160002553361, 'FEDERAÇÃO').
+coligacao(160002532865, 'FEDERAÇÃO').
+coligacao(160002547718, 'FEDERAÇÃO').
+coligacao(160002547713, 'FEDERAÇÃO').
+coligacao(160002554273, 'FEDERAÇÃO').
+coligacao(160002549535, 'FEDERAÇÃO').
+coligacao(160002549537, 'FEDERAÇÃO').
+coligacao(160002549524, 'FEDERAÇÃO').
+coligacao(160002532860, 'FEDERAÇÃO').
+coligacao(160002549548, 'FEDERAÇÃO').
+coligacao(160002547714, 'FEDERAÇÃO').
+coligacao(160002547716, 'FEDERAÇÃO').
+coligacao(160002547715, 'FEDERAÇÃO').
+coligacao(160002532849, 'FEDERAÇÃO').
+coligacao(160002547706, 'FEDERAÇÃO').
+coligacao(160002553371, 'FEDERAÇÃO').
+coligacao(160002547707, 'FEDERAÇÃO').
+coligacao(160002547708, 'FEDERAÇÃO').
+coligacao(160002553377, 'FEDERAÇÃO').
+coligacao(160002553373, 'FEDERAÇÃO').
+coligacao(160002547725, 'FEDERAÇÃO').
+coligacao(160002553355, 'FEDERAÇÃO').
+coligacao(160002547712, 'FEDERAÇÃO').
+coligacao(160002553376, 'FEDERAÇÃO').
+coligacao(160002549523, 'FEDERAÇÃO').
+coligacao(160002553372, 'FEDERAÇÃO').
+coligacao(160002547711, 'FEDERAÇÃO').
+coligacao(160002553360, 'FEDERAÇÃO').
+coligacao(160002554274, 'FEDERAÇÃO').
+coligacao(160002549530, 'FEDERAÇÃO').
+coligacao(160002549531, 'FEDERAÇÃO').
+coligacao(160002553368, 'FEDERAÇÃO').
+coligacao(160002553375, 'FEDERAÇÃO').
+coligacao(160002542281, 'FEDERAÇÃO').
+coligacao(160002533451, 'FEDERAÇÃO').
+coligacao(160002533460, 'FEDERAÇÃO').
+coligacao(160002547760, 'FEDERAÇÃO').
+coligacao(160002533479, 'FEDERAÇÃO').
+coligacao(160002533442, 'FEDERAÇÃO').
+coligacao(160002542233, 'FEDERAÇÃO').
+coligacao(160002533488, 'FEDERAÇÃO').
+coligacao(160002542248, 'FEDERAÇÃO').
+coligacao(160002542263, 'FEDERAÇÃO').
+coligacao(160002533447, 'FEDERAÇÃO').
+coligacao(160002533454, 'FEDERAÇÃO').
+coligacao(160002533485, 'FEDERAÇÃO').
+coligacao(160002542235, 'FEDERAÇÃO').
+coligacao(160002542231, 'FEDERAÇÃO').
+coligacao(160002542277, 'FEDERAÇÃO').
+coligacao(160002542256, 'FEDERAÇÃO').
+coligacao(160002542269, 'FEDERAÇÃO').
+coligacao(160002533475, 'FEDERAÇÃO').
+coligacao(160002542259, 'FEDERAÇÃO').
+coligacao(160002533446, 'FEDERAÇÃO').
+coligacao(160002542234, 'FEDERAÇÃO').
+coligacao(160002542236, 'FEDERAÇÃO').
+coligacao(160002542279, 'FEDERAÇÃO').
+coligacao(160002533476, 'FEDERAÇÃO').
+coligacao(160002542260, 'FEDERAÇÃO').
+coligacao(160002542244, 'FEDERAÇÃO').
+coligacao(160002542242, 'FEDERAÇÃO').
+coligacao(160002542245, 'FEDERAÇÃO').
+coligacao(160002542251, 'FEDERAÇÃO').
+coligacao(160002552795, 'FEDERAÇÃO').
+coligacao(160002542272, 'FEDERAÇÃO').
+coligacao(160002533468, 'FEDERAÇÃO').
+coligacao(160002533492, 'FEDERAÇÃO').
+coligacao(160002542262, 'FEDERAÇÃO').
+coligacao(160002542247, 'FEDERAÇÃO').
+coligacao(160002533478, 'FEDERAÇÃO').
+coligacao(160002533480, 'FEDERAÇÃO').
+coligacao(160002542241, 'FEDERAÇÃO').
+coligacao(160002542255, 'FEDERAÇÃO').
+coligacao(160002533444, 'FEDERAÇÃO').
+coligacao(160002542232, 'FEDERAÇÃO').
+coligacao(160002542266, 'FEDERAÇÃO').
+coligacao(160002542280, 'FEDERAÇÃO').
+coligacao(160002542254, 'FEDERAÇÃO').
+coligacao(160002533482, 'FEDERAÇÃO').
+coligacao(160002553382, 'FEDERAÇÃO').
+coligacao(160002533484, 'FEDERAÇÃO').
+coligacao(160002533486, 'FEDERAÇÃO').
+coligacao(160002533471, 'FEDERAÇÃO').
+coligacao(160002542276, 'FEDERAÇÃO').
+coligacao(160002542264, 'FEDERAÇÃO').
+coligacao(160002547753, 'FEDERAÇÃO').
+coligacao(160002533462, 'FEDERAÇÃO').
+coligacao(160002542253, 'FEDERAÇÃO').
+coligacao(160002553385, 'FEDERAÇÃO').
+coligacao(160002542239, 'FEDERAÇÃO').
+coligacao(160002533477, 'FEDERAÇÃO').
+coligacao(160002533470, 'FEDERAÇÃO').
+coligacao(160002552800, 'FEDERAÇÃO').
+coligacao(160002542261, 'FEDERAÇÃO').
+coligacao(160002533439, 'FEDERAÇÃO').
+coligacao(160002542246, 'FEDERAÇÃO').
+coligacao(160002542278, 'FEDERAÇÃO').
+coligacao(160002533473, 'FEDERAÇÃO').
+coligacao(160002542265, 'FEDERAÇÃO').
+coligacao(160002533445, 'FEDERAÇÃO').
+coligacao(160002552815, 'FEDERAÇÃO').
+coligacao(160002552811, 'FEDERAÇÃO').
+coligacao(160002533450, 'FEDERAÇÃO').
+coligacao(160002542258, 'FEDERAÇÃO').
+coligacao(160002542274, 'FEDERAÇÃO').
+coligacao(160002542268, 'FEDERAÇÃO').
+coligacao(160002542257, 'FEDERAÇÃO').
+coligacao(160002542271, 'FEDERAÇÃO').
+coligacao(160002547738, 'FEDERAÇÃO').
+coligacao(160002553389, 'FEDERAÇÃO').
+coligacao(160002533466, 'FEDERAÇÃO').
+coligacao(160002547751, 'FEDERAÇÃO').
+coligacao(160002552825, 'FEDERAÇÃO').
+coligacao(160002533455, 'FEDERAÇÃO').
+coligacao(160002533472, 'FEDERAÇÃO').
+coligacao(160002533491, 'FEDERAÇÃO').
+coligacao(160002533463, 'FEDERAÇÃO').
+coligacao(160002542237, 'FEDERAÇÃO').
+coligacao(160002533449, 'FEDERAÇÃO').
+coligacao(160002552821, 'FEDERAÇÃO').
+coligacao(160002552799, 'FEDERAÇÃO').
+coligacao(160002542243, 'FEDERAÇÃO').
+coligacao(160002533487, 'FEDERAÇÃO').
+coligacao(160002542240, 'FEDERAÇÃO').
+coligacao(160002533458, 'FEDERAÇÃO').
+coligacao(160002533469, 'FEDERAÇÃO').
+coligacao(160002542270, 'FEDERAÇÃO').
+coligacao(160002533457, 'FEDERAÇÃO').
+coligacao(160002552829, 'FEDERAÇÃO').
+coligacao(160002533465, 'FEDERAÇÃO').
+coligacao(160002542249, 'FEDERAÇÃO').
+coligacao(160002552823, 'FEDERAÇÃO').
+coligacao(160002547728, 'FEDERAÇÃO').
+coligacao(160002533456, 'FEDERAÇÃO').
+coligacao(160002552789, 'FEDERAÇÃO').
+coligacao(160002553387, 'FEDERAÇÃO').
+coligacao(160002533481, 'FEDERAÇÃO').
+coligacao(160002552809, 'FEDERAÇÃO').
+coligacao(160002533452, 'FEDERAÇÃO').
+coligacao(160002542252, 'FEDERAÇÃO').
+coligacao(160002547742, 'FEDERAÇÃO').
+coligacao(160002533489, 'FEDERAÇÃO').
+coligacao(160002552791, 'FEDERAÇÃO').
+coligacao(160002533467, 'FEDERAÇÃO').
+coligacao(160002554283, 'FEDERAÇÃO').
+coligacao(160002542273, 'FEDERAÇÃO').
+coligacao(160002547755, 'FEDERAÇÃO').
+coligacao(160002552813, 'FEDERAÇÃO').
+coligacao(160002533461, 'FEDERAÇÃO').
+coligacao(160002552786, 'FEDERAÇÃO').
+coligacao(160002533441, 'FEDERAÇÃO').
+coligacao(160002552793, 'FEDERAÇÃO').
+coligacao(160002553386, 'FEDERAÇÃO').
+coligacao(160002542267, 'FEDERAÇÃO').
+coligacao(160002547759, 'FEDERAÇÃO').
+coligacao(160002547737, 'FEDERAÇÃO').
+coligacao(160002552784, 'FEDERAÇÃO').
+coligacao(160002552820, 'FEDERAÇÃO').
+coligacao(160002552797, 'FEDERAÇÃO').
+coligacao(160002552761, 'FEDERAÇÃO').
+coligacao(160002553383, 'FEDERAÇÃO').
+coligacao(160002547750, 'FEDERAÇÃO').
+coligacao(160002553381, 'FEDERAÇÃO').
+coligacao(160002547764, 'FEDERAÇÃO').
+coligacao(160002547761, 'FEDERAÇÃO').
+coligacao(160002542250, 'FEDERAÇÃO').
+coligacao(160002552830, 'FEDERAÇÃO').
+coligacao(160002554377, 'FEDERAÇÃO').
+coligacao(160002552831, 'FEDERAÇÃO').
+coligacao(160002552828, 'FEDERAÇÃO').
+coligacao(160002547739, 'FEDERAÇÃO').
+coligacao(160002533464, 'FEDERAÇÃO').
+coligacao(160002552783, 'FEDERAÇÃO').
+coligacao(160002554363, 'FEDERAÇÃO').
+coligacao(160002533459, 'FEDERAÇÃO').
+coligacao(160002553378, 'FEDERAÇÃO').
+coligacao(160002552762, 'FEDERAÇÃO').
+coligacao(160002552576, 'FEDERAÇÃO').
+coligacao(160002552801, 'FEDERAÇÃO').
+coligacao(160002552785, 'FEDERAÇÃO').
+coligacao(160002547729, 'FEDERAÇÃO').
+coligacao(160002547767, 'FEDERAÇÃO').
+coligacao(160002552810, 'FEDERAÇÃO').
+coligacao(160002547743, 'FEDERAÇÃO').
+coligacao(160002552818, 'FEDERAÇÃO').
+coligacao(160002552802, 'FEDERAÇÃO').
+coligacao(160002552816, 'FEDERAÇÃO').
+coligacao(160002533490, 'FEDERAÇÃO').
+coligacao(160002547741, 'FEDERAÇÃO').
+coligacao(160002547745, 'FEDERAÇÃO').
+coligacao(160002533443, 'FEDERAÇÃO').
+coligacao(160002553380, 'FEDERAÇÃO').
+coligacao(160002552805, 'FEDERAÇÃO').
+coligacao(160002552817, 'FEDERAÇÃO').
+coligacao(160002553384, 'FEDERAÇÃO').
+coligacao(160002552819, 'FEDERAÇÃO').
+coligacao(160002547727, 'FEDERAÇÃO').
+coligacao(160002552798, 'FEDERAÇÃO').
+coligacao(160002552807, 'FEDERAÇÃO').
+coligacao(160002547762, 'FEDERAÇÃO').
+coligacao(160002554300, 'FEDERAÇÃO').
+coligacao(160002552808, 'FEDERAÇÃO').
+coligacao(160002552826, 'FEDERAÇÃO').
+coligacao(160002552827, 'FEDERAÇÃO').
+coligacao(160002533440, 'FEDERAÇÃO').
+coligacao(160002552803, 'FEDERAÇÃO').
+coligacao(160002547754, 'FEDERAÇÃO').
+coligacao(160002547758, 'FEDERAÇÃO').
+coligacao(160002552806, 'FEDERAÇÃO').
+coligacao(160002547748, 'FEDERAÇÃO').
+coligacao(160002533453, 'FEDERAÇÃO').
+coligacao(160002547744, 'FEDERAÇÃO').
+coligacao(160002552794, 'FEDERAÇÃO').
+coligacao(160002547734, 'FEDERAÇÃO').
+coligacao(160002547726, 'FEDERAÇÃO').
+coligacao(160002547730, 'FEDERAÇÃO').
+coligacao(160002552788, 'FEDERAÇÃO').
+coligacao(160002552822, 'FEDERAÇÃO').
+coligacao(160002554284, 'FEDERAÇÃO').
+coligacao(160002554272, 'FEDERAÇÃO').
+coligacao(160002547766, 'FEDERAÇÃO').
+coligacao(160002547733, 'FEDERAÇÃO').
+coligacao(160002533474, 'FEDERAÇÃO').
+coligacao(160002552804, 'FEDERAÇÃO').
+coligacao(160002552796, 'FEDERAÇÃO').
+coligacao(160002547746, 'FEDERAÇÃO').
+coligacao(160002547731, 'FEDERAÇÃO').
+coligacao(160002552824, 'FEDERAÇÃO').
+coligacao(160002542275, 'FEDERAÇÃO').
+coligacao(160002552787, 'FEDERAÇÃO').
+coligacao(160002547732, 'FEDERAÇÃO').
+coligacao(160002547763, 'FEDERAÇÃO').
+coligacao(160002547757, 'FEDERAÇÃO').
+coligacao(160002552569, 'FEDERAÇÃO').
+coligacao(160002547736, 'FEDERAÇÃO').
+coligacao(160002547749, 'FEDERAÇÃO').
+coligacao(160002547740, 'FEDERAÇÃO').
+coligacao(160002547752, 'FEDERAÇÃO').
+coligacao(160002533448, 'FEDERAÇÃO').
+coligacao(160002547735, 'FEDERAÇÃO').
+coligacao(160002552792, 'FEDERAÇÃO').
+coligacao(160002552812, 'FEDERAÇÃO').
