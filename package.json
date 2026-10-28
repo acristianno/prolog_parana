@@ -1,0 +1,20 @@
+{
+  "name": "prolog-parana",
+  "version": "1.0.0",
+  "description": "Eleições 2026 PR: consultas em Prolog (ferramentas em Node)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dados": "node preparar_dados.mjs --marts",
+    "cliente": "node cliente.mjs",
+    "teste:dashboard": "node testes/e2e_dashboard.mjs",
+    "teste:exemplos": "node testes/exemplos_console.mjs"
+  },
+  "dependencies": {
+    "hyparquet": "^1.0.0",
+    "hyparquet-compressors": "^1.0.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.40.0"
+  }
+}

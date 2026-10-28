@@ -8,7 +8,7 @@ Os dados ficam em **fatos Prolog**, o raciocínio é feito por **regras Prolog**
 
 | Camada | Tecnologia | Papel |
 |---|---|---|
-| Preparação dos dados | Python (`preparar_dados.py`) | Lê os resultados do TSE e gera os fatos Prolog em `dados/` |
+| Preparação dos dados | JavaScript/Node (`preparar_dados.mjs`) | Lê os resultados do TSE e gera os fatos Prolog em `dados/` |
 | Base de conhecimento | Prolog (`dados/*.pl`) | Fatos: `candidato/7`, `votos_uf/2`, `votos_municipio/3`, `municipio/2`, … |
 | Raciocínio | Prolog (`prolog/regras.pl`) | Regras: ranking, percentual, partidos, vencedor por município, redutos, busca |
 | API e servidor | Prolog (`prolog/api.pl`, `prolog/servidor.pl`) | Servidor HTTP do SWI-Prolog que devolve JSON |
@@ -27,7 +27,7 @@ Lista = [3127911-160002540833, 1583764-160002549553, 1465601-160002547666].
 ## Requisitos
 
 - [SWI-Prolog](https://www.swi-prolog.org/Download.html) 9 ou superior (testado com 10.0.2). No Windows: `winget install SWI-Prolog.SWI-Prolog`.
-- Um navegador. Python e Node só são necessários para as partes opcionais (cliente de exemplo, regeneração dos dados, teste do navegador).
+- Um navegador. O Node.js 18+ só é necessário para as partes opcionais (cliente de exemplo, regeneração dos dados, teste do navegador).
 
 ## Como rodar
 
@@ -42,7 +42,7 @@ Abra <http://localhost:8080>. A primeira carga leva alguns segundos (cerca de 13
 | `iniciar.bat` | Sobe o servidor e abre o navegador (Windows) |
 | `testar.bat` ou `swipl -q -g run_tests -t halt testes/testes.pl` | Testes unitários das regras (plunit) |
 | `swipl prolog/carregar.pl` | Terminal interativo com a base e as regras carregadas |
-| `python cliente_python.py` | Exemplo de integração: Python consultando o Prolog por HTTP (servidor ligado) |
+| `node cliente.mjs` | Exemplo de integração: JavaScript (Node) consultando o Prolog por HTTP (servidor ligado) |
 | `node testes/e2e_dashboard.mjs` | Teste do dashboard no navegador (precisa do pacote `playwright`) |
 | `node testes/exemplos_console.mjs` | Confere que todos os exemplos do console retornam resposta |
 
@@ -70,8 +70,8 @@ prolog/
   carregar.pl     entrada para uso interativo e testes
 web/              dashboard (index.html, app.js, estilo.css)
 testes/           plunit, teste do navegador e conferência dos exemplos
-preparar_dados.py gerador dos fatos a partir dos resultados do TSE
-cliente_python.py exemplo de cliente
+preparar_dados.mjs gerador dos fatos (Node) a partir dos resultados do TSE
+cliente.mjs      exemplo de cliente (Node)
 ```
 
 ## Regras principais (`prolog/regras.pl`)
@@ -80,11 +80,11 @@ cliente_python.py exemplo de cliente
 
 ## Integração do Prolog com outras linguagens
 
-Prolog é ótimo para representar conhecimento e raciocinar com fatos, regras e consultas, mas não foi feito para telas e serviços web. Por isso as linguagens se complementam: o Prolog guarda e consulta o conhecimento, e Python, Java, C ou JavaScript montam aplicações, interfaces e APIs. Neste trabalho:
+Prolog é ótimo para representar conhecimento e raciocinar com fatos, regras e consultas, mas não foi feito para telas e serviços web. Por isso as linguagens se complementam: o Prolog guarda e consulta o conhecimento, e linguagens como JavaScript, Java, C ou Python montam aplicações, interfaces e APIs. Neste trabalho:
 
-- **Python → Prolog:** o Python prepara os fatos (ETL) e, em `cliente_python.py`, consome o Prolog por HTTP/JSON.
-- **JavaScript → Prolog:** o dashboard chama a API do servidor Prolog com `fetch`.
-- Outras formas, não usadas aqui: **janus** (ponte oficial Python⇄SWI-Prolog), **pyswip**, **JPL** (Java), a interface de linguagens estrangeiras em **C** e a execução do `swipl` como subprocesso.
+- **JavaScript (Node) → Prolog:** o Node prepara os fatos (ETL, `preparar_dados.mjs`) e, em `cliente.mjs`, consome o Prolog por HTTP/JSON.
+- **JavaScript (navegador) → Prolog:** o dashboard chama a API do servidor Prolog com `fetch`.
+- Outras formas, não usadas aqui: **janus** e **pyswip** (Python), **JPL** (Java), a interface de linguagens estrangeiras em **C** e a execução do `swipl` como subprocesso.
 
 Aplicações típicas dessa combinação são IA simbólica, sistemas especialistas, processamento de linguagem natural e planejamento.
 
@@ -93,8 +93,8 @@ Aplicações típicas dessa combinação são IA simbólica, sistemas especialis
 Os arquivos de `dados/` já estão no repositório. Para gerá-los de novo é preciso ter os arquivos Parquet dos resultados do TSE (`mart_candidate_result`, `mart_turnout`, `dim_candidate`, `dim_municipality`):
 
 ```bash
-pip install -r requirements.txt
-python preparar_dados.py --marts caminho/para/os/parquet
+npm install
+node preparar_dados.mjs --marts caminho/para/os/parquet
 ```
 
 ## Roteiro de demonstração

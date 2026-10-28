@@ -1,4 +1,4 @@
-/*  BASE DE CONHECIMENTO — carrega os FATOS gerados pelo Python (pasta dados/).
+/*  BASE DE CONHECIMENTO — carrega os FATOS gerados pelo JavaScript (pasta dados/).
 
     Em Prolog, um programa é feito de:
       FATOS    o que sabemos           candidato(280002542287, 'JEFFREY CHIQUINI', ..., deputado_federal, _).
